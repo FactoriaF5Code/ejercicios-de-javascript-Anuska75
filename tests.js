@@ -164,7 +164,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result ==="Pizza con Pepperoni").to.be.true;
+        expect(result ==="Pizza con Pepperoni").to.be.equal;
     })
 })
 
