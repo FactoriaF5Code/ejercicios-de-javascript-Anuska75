@@ -192,7 +192,12 @@ describe("Funciones (I)", () => {
     function evenOrOdd(n) {
         // cambia el contenido de la función para hacer
         // pasar los tests
-        return n % 2 === 0 ? "even" : "odd";
+    if (n%2===0) 
+    {return "even";
+    }
+    else {
+        return "odd";
+    }
     }
 
     function greeting(name) {
